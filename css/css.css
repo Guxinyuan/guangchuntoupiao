@@ -25,7 +25,7 @@ body{
 }
 .one{
 	position: absolute;
-	top: 31%;
+	top: 35%;
 	left: 15%;
 }
 .one img{
@@ -38,7 +38,7 @@ body{
 }
 .two{
 	position: absolute;
-	top: 39%;
+	top: 43%;
 	right: 15%;
 }
 .two img{
@@ -51,7 +51,7 @@ body{
 }
 .three{
 	position: absolute;
-	top: 48%;
+	top: 52%;
 	left: 15%;
 }
 .three img{
@@ -64,7 +64,7 @@ body{
 }
 .four{
 	position: absolute;
-	top: 56%;
+	top: 60%;
 	right: 15%;
 }
 .four img{
@@ -77,7 +77,7 @@ body{
 }
 .five{
 	position: absolute;
-	top: 64%;
+	top: 68%;
 	left: 15%;
 }
 .five img{
@@ -90,7 +90,7 @@ body{
 }
 .six{
 	position: absolute;
-	top: 72%;
+	top: 76%;
 	right: 16%;
 }
 .six img{
@@ -103,7 +103,7 @@ body{
 }
 .seven{
 	position: absolute;
-	top: 80%;
+	top: 84%;
 	left: 15%;
 }
 .seven img{
@@ -116,7 +116,7 @@ body{
 }
 .eight{
 	position: absolute;
-	top: 88%;
+	top: 92%;
 	right: 15%;
 }
 .eight img{
@@ -129,7 +129,7 @@ body{
 }
 .nine{
 	position: absolute;
-	top: 96%;
+	top: 100%;
 	left: 15%;
 }
 .nine img{
@@ -142,7 +142,7 @@ body{
 }
 .ten{
 	position: absolute;
-	top: 103%;
+	top: 107%;
 	right: 15%;
 }
 .ten img{
@@ -155,7 +155,7 @@ body{
 }
 .footer{
 	position: absolute;
-	top: 115%;
+	top: 119%;
 	left: 15%;
 }
 
