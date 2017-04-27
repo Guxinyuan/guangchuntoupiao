@@ -1,0 +1,166 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; 
+}
+.container{
+	width: 750px;
+	height: 2100px;
+	background-image: url(../images/backimg.jpg);
+}
+.banner{
+	position: absolute;
+	top: 6%;
+	left: 36%;
+}
+.one{
+	position: absolute;
+	top: 47%;
+	left: 30%;
+}
+.one img{
+	float: left;
+}
+.one p{
+	font-size: 180%;
+	float: left;
+    margin-top: 10%;
+}
+.two{
+	position: absolute;
+	top: 67%;
+	right: 30%;
+}
+.two img{
+	float: right;
+}
+.two p{
+	font-size: 180%;
+	float: right;
+    margin-top: 10%;
+}
+.three{
+	position: absolute;
+	top: 84%;
+	left: 30%;
+}
+.three img{
+	float: left;
+}
+.three p{
+	font-size: 180%;
+	float: left;
+    margin-top: 10%;
+}
+.four{
+	position: absolute;
+	top: 101%;
+	right: 30%;
+}
+.four img{
+	float: right;
+}
+.four p{
+	font-size: 180%;
+	float: right;
+    margin-top: 10%;
+}
+.five{
+	position: absolute;
+	top: 118%;
+	left: 30%;
+}
+.five img{
+	float: left;
+}
+.five p{
+	font-size: 180%;
+	float: left;
+    margin-top: 10%;
+}
+.six{
+	position: absolute;
+	top: 135%;
+	right: 30%;
+}
+.six img{
+	float: right;
+}
+.six p{
+	font-size: 180%;
+	float: right;
+    margin-top: 10%;
+}
+.seven{
+	position: absolute;
+	top: 152%;
+	left: 30%;
+}
+.seven img{
+	float: left;
+}
+.seven p{
+	font-size: 180%;
+	float: left;
+    margin-top: 10%;
+}
+.eight{
+	position: absolute;
+	top: 169%;
+	right: 30%;
+}
+.eight img{
+	float: right;
+}
+.eight p{
+	font-size: 180%;
+	float: right;
+    margin-top: 10%;
+}
+.nine{
+	position: absolute;
+	top: 186%;
+	left: 30%;
+}
+.nine img{
+	float: left;
+}
+.nine p{
+	font-size: 180%;
+	float: left;
+    margin-top: 10%;
+}
+.ten{
+	position: absolute;
+	top: 203%;
+	right: 30%;
+}
+.ten img{
+	float: right;
+}
+.ten p{
+	font-size: 180%;
+	float: right;
+    margin-top: 10%;
+}
+.footer{
+	position: absolute;
+	top: 227%;
+	left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
