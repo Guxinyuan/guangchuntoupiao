@@ -4,9 +4,11 @@
   box-sizing: border-box; 
 }
 .container{
-	width: 750px;
+	width: 100%;
 	height: 2100px;
 	background-image: url(../images/backimg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .banner{
 	position: absolute;
