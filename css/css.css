@@ -13,20 +13,20 @@ body{
 }
 .container{
 	width: 100%;
-	height: 100%;
+	height: 2100px;
 	background-image: url(../images/backimg.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-size: 100%;
 }
 .banner{
 	position: absolute;
-	top: 6%;
-	left: 36%;
+	top: 7%;
+	left: 31%;
 }
 .one{
 	position: absolute;
-	top: 47%;
-	left: 30%;
+	top: 31%;
+	left: 15%;
 }
 .one img{
 	float: left;
@@ -34,12 +34,12 @@ body{
 .one p{
 	font-size: 180%;
 	float: left;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .two{
 	position: absolute;
-	top: 67%;
-	right: 30%;
+	top: 39%;
+	right: 15%;
 }
 .two img{
 	float: right;
@@ -47,12 +47,12 @@ body{
 .two p{
 	font-size: 180%;
 	float: right;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .three{
 	position: absolute;
-	top: 84%;
-	left: 30%;
+	top: 48%;
+	left: 15%;
 }
 .three img{
 	float: left;
@@ -60,12 +60,12 @@ body{
 .three p{
 	font-size: 180%;
 	float: left;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .four{
 	position: absolute;
-	top: 101%;
-	right: 30%;
+	top: 56%;
+	right: 15%;
 }
 .four img{
 	float: right;
@@ -73,12 +73,12 @@ body{
 .four p{
 	font-size: 180%;
 	float: right;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .five{
 	position: absolute;
-	top: 118%;
-	left: 30%;
+	top: 64%;
+	left: 15%;
 }
 .five img{
 	float: left;
@@ -86,12 +86,12 @@ body{
 .five p{
 	font-size: 180%;
 	float: left;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .six{
 	position: absolute;
-	top: 135%;
-	right: 30%;
+	top: 72%;
+	right: 16%;
 }
 .six img{
 	float: right;
@@ -99,12 +99,12 @@ body{
 .six p{
 	font-size: 180%;
 	float: right;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .seven{
 	position: absolute;
-	top: 152%;
-	left: 30%;
+	top: 80%;
+	left: 15%;
 }
 .seven img{
 	float: left;
@@ -112,12 +112,12 @@ body{
 .seven p{
 	font-size: 180%;
 	float: left;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .eight{
 	position: absolute;
-	top: 169%;
-	right: 30%;
+	top: 88%;
+	right: 15%;
 }
 .eight img{
 	float: right;
@@ -125,12 +125,12 @@ body{
 .eight p{
 	font-size: 180%;
 	float: right;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .nine{
 	position: absolute;
-	top: 186%;
-	left: 30%;
+	top: 96%;
+	left: 15%;
 }
 .nine img{
 	float: left;
@@ -138,12 +138,12 @@ body{
 .nine p{
 	font-size: 180%;
 	float: left;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .ten{
 	position: absolute;
-	top: 203%;
-	right: 30%;
+	top: 103%;
+	right: 15%;
 }
 .ten img{
 	float: right;
@@ -151,12 +151,12 @@ body{
 .ten p{
 	font-size: 180%;
 	float: right;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .footer{
 	position: absolute;
-	top: 227%;
-	left: 30%;
+	top: 115%;
+	left: 15%;
 }
 
 
