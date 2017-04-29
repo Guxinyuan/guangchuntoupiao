@@ -154,8 +154,9 @@ body{
 }
 .footer{
 	position: absolute;
-	top: 121%;
+	top: 124%;
 	left: 15%;
+	margin-bottom: 2%;
 }
 #hide{
     display: none;
