@@ -24,7 +24,7 @@ body{
 	left: 31%;
 }
 .one{
-	position: absolute;
+	position: absolute;.
 	top: 40%;
 	left: 15%;
 }
@@ -158,7 +158,71 @@ body{
 	top: 124%;
 	left: 15%;
 }
-
+#hide{
+  display: none;
+}
+.hide{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/h.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.photo{
+	position: absolute;
+	top: 11%;
+	left: 15%;
+}
+.photo img{
+	float: left;
+}
+.intro{
+	float: left;
+	margin-top: 2%;
+}
+.l1{
+	font-size: 220%;
+}
+.l2{
+    font-size: 380%;
+}
+.l3{
+	font-size: 260%;
+	position: absolute;
+	left: 45%;
+}
+.intro:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.i1{
+	width: 75%;
+	position: absolute;
+	top: 28%;
+	left: 17%;
+}
+.circle p{
+	font-size: 230%;
+	position: absolute;
+	top: 34%;
+	left: 32%;
+	line-height: 1.3em;
+}
+.i2{
+	width: 28%;
+	position: absolute;
+	top: 65%;
+	left: 18%;
+}
+#close{
+	position: absolute;
+	top: 77%;
+	left: 47%;
+	font-size: 200%;
+}
 
 
 
