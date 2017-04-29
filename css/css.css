@@ -24,7 +24,7 @@ body{
 }
 .one{
 	position: absolute;
-	top: 40%;
+	top: 37%;
 	left: 15%;
 }
 .one img{
@@ -37,7 +37,7 @@ body{
 }
 .two{
 	position: absolute;
-	top: 48%;
+	top: 45%;
 	right: 15%;
 }
 .two img{
@@ -50,7 +50,7 @@ body{
 }
 .three{
 	position: absolute;
-	top: 57%;
+	top: 54%;
 	left: 15%;
 }
 .three img{
@@ -63,7 +63,7 @@ body{
 }
 .four{
 	position: absolute;
-	top: 65%;
+	top: 62%;
 	right: 15%;
 }
 .four img{
@@ -76,7 +76,7 @@ body{
 }
 .five{
 	position: absolute;
-	top: 73%;
+	top: 70%;
 	left: 15%;
 }
 .five img{
@@ -89,7 +89,7 @@ body{
 }
 .six{
 	position: absolute;
-	top: 81%;
+	top: 78%;
 	right: 16%;
 }
 .six img{
@@ -102,7 +102,7 @@ body{
 }
 .seven{
 	position: absolute;
-	top: 89%;
+	top: 86%;
 	left: 15%;
 }
 .seven img{
@@ -115,7 +115,7 @@ body{
 }
 .eight{
 	position: absolute;
-	top: 97%;
+	top: 94%;
 	right: 15%;
 }
 .eight img{
@@ -128,7 +128,7 @@ body{
 }
 .nine{
 	position: absolute;
-	top: 105%;
+	top: 102%;
 	left: 15%;
 }
 .nine img{
@@ -141,7 +141,7 @@ body{
 }
 .ten{
 	position: absolute;
-	top: 113%;
+	top: 110%;
 	right: 15%;
 }
 .ten img{
@@ -154,7 +154,7 @@ body{
 }
 .footer{
 	position: absolute;
-	top: 127%;
+	top: 124%;
 	left: 15%;
 }
 #hide{
@@ -178,6 +178,7 @@ body{
 .intro{
 	float: left;
 	margin-top: 2%;
+	text-align: center;
 }
 .l1{
 	font-size: 220%;
@@ -189,13 +190,6 @@ body{
 	font-size: 260%;
 	position: absolute;
 	left: 80%;
-}
-.intro:after{
-	content:".";
-	display:block;
-	height:0;
-	clear:both;
-	visibility:hidden;
 }
 .i1{
 	width: 75%;
