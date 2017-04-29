@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>广春投票</title>
 	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src=js/vote.js></script>
 </head>
 <body>
 	<div class="container">
@@ -13,104 +16,107 @@
 	<div class="content">
 		<div class="one">
 		<span id="click">
-			<img src="images/1img.png" alt="">
+			<img src="images/1img.png" alt="" id="xs1">
 		</span>
 			<p>曹牧之  叶梓靖</p><br/>
-			<p>100票</p>
+			<p class="voteNum1">100票</p>
 		</div>
 		<div class="two">
-			<img src="images/6img.png" alt="">
+			<span class="click">
+			<img src="images/6img.png" alt="" id="xs6">
+			</span>
 			<p>程博强</p><br/>
-			<p>100票</p>
+			<p class="voteNum6">100票</p>
 		</div>
 		<div class="three">
-			<img src="images/2img.png" alt="">
+			<img src="images/2img.png" alt="" id="xs2">
 			<p>宋舒蕾</p><br/>
-			<p>100票</p>
+			<p class="voteNum2">100票</p>
 		</div>
 		<div class="four">
-			<img src="images/7img.png" alt="">
+			<img src="images/7img.png" alt="" id="xs7">
 			<p>涂陈昊</p><br/>
-			<p>100票</p>
+			<p class="voteNum7">100票</p>
 		</div>
 		<div class="five">
-			<img src="images/3img.png" alt="">
+			<img src="images/3img.png" alt="" id="xs3">
 			<p>王汉臣</p><br/>
-			<p>100票</p>
+			<p class="voteNum3">100票</p>
 		</div>
 		<div class="six">
-			<img src="images/8img.png" alt="">
+			<img src="images/8img.png" alt="" id="xs8">
 			<p>杨鹏宇</p><br/>
-			<p>100票</p>
+			<p class="voteNum8">100票</p>
 		</div>
 		<div class="seven">
-			<img src="images/4img.png" alt="">
+			<img src="images/4img.png" alt="" id="xs4">
 			<p>叶青雯</p><br/>
-			<p>100票</p>
+			<p class="voteNum4">100票</p>
 		</div>
 		<div class="eight">
-			<img src="images/9img.png" alt="">
+			<img src="images/9img.png" alt="" id="xs9">
 			<p>郑馨怡</p><br/>
-			<p>100票</p>
+			<p class="voteNum9">100票</p>
 		</div>
 		<div class="nine">
-			<img src="images/5img.png" alt="">
+			<img src="images/5img.png" alt="" id="xs5">
 			<p>张沁园</p><br/>
-			<p>100票</p>
+			<p class="voteNum5">100票</p>
 		</div>
 		<div class="ten">
-			<img src="images/10img.png" alt="">
+			<img src="images/10img.png" alt="" id="xs10">
 			<p>宗一介</p><br/>
-			<p>100票</p>
+			<p class="voteNum10">100票</p>
 		</div>
 	</div>
 	<div class="footer">
 	  <img src="images/footer.png" alt="">
 	</div>
-	<div id="hide">
-		<div class="box">
-		
+	
+	
+	</div>
+	<div id="hide">		
 		<div class="photo">
-			<img src="images/h1-1.png" alt="">
+			<img src="images/h1-1.png" alt="" id="gxy">
 			<div class="intro">
-			  <p class="l1">14表演</p><br/>
-			  <p class="l2">曹牧之 叶梓靖</p><br/>
-			  <p class="l3">100票</p>
+			  <p class="l1"></p><br/>
+			  <p class="l2"></p><br/>
+			  <p class="l3"><span class="vote1"></span>票</p>
 			</div>
 		</div>
 		<div class="circle">
-		<img src="images/h1-2.png" alt="" class="i1">
-		  <p> 他们是火焰与海水的结合，<br/>
-              是热情与安静的连系。在舞<br/>
-              台上，他们可以肆意挥洒震<br/>
-              荡你的脉搏，也可以抱起吉<br/>
-              他为你演唱一首民谣曲。他<br/>
-              们可以热情洋溢，也可以温<br/>
-              暖如溪。他们会整装待发，<br/>
-              一身荣光，勇敢无惧，用他<br/>
-              们独特的嗓音带观众走进那<br/>
-              遥远的青葱年代。
-           </p>
-           <img src="images/h1-3.png" alt="" class="i2">
+			<img src="images/h1-2.png" alt="" class="i1">
+		  	<p class="detail"></p>
+           	<img src="images/h1-3.png" alt="" class="back">
 		</div>
 		<div id="close">
-		<p><<返回首页</p>
+			<p><<返回首页</p>
 		</div>
 	</div>
 	<script type="text/javascript">
 		function show() {
 			// body...
 			document.getElementById('hide').style.display = 'block';
+			showdiv();
 			
 		}
 		function close() {
 			// body...
 			document.getElementById('hide').style.display = 'none';
+			hidediv();
 		}
-		document.getElementById('click').addEventListener('click',show)
+		document.getElementById('xs1').addEventListener('click',show);
+		document.getElementById('xs2').addEventListener('click',show);
+		document.getElementById('xs3').addEventListener('click',show);
+		document.getElementById('xs4').addEventListener('click',show);
+		document.getElementById('xs5').addEventListener('click',show);
+		document.getElementById('xs6').addEventListener('click',show);
+		document.getElementById('xs7').addEventListener('click',show);
+		document.getElementById('xs8').addEventListener('click',show);
+		document.getElementById('xs9').addEventListener('click',show);
+		document.getElementById('xs10').addEventListener('click',show);
 		document.getElementById('close').addEventListener('click',close);
 	</script>	
-	</div>
 </body>
 </html>
 

@@ -159,13 +159,13 @@ body{
 }
 #hide{
     display: none;
-}
-.box{
-	width: 100%;
-	height: 2300px;
-	background-image: url(../images/h.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
+    width: 100%;
+	height: 100%;
+	/*background-image: url(../images/h.jpg);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 100%;*/
+	position: absolute;
+	z-index: 999;
 }
 .photo{
 	position: absolute;
@@ -203,14 +203,22 @@ body{
 	top: 28%;
 	left: 17%;
 }
+.detail{
+	width: 465px;
+	height: 510px;
+	position: absolute;
+	top: 30%;
+	left: 19%;
+
+}
 .circle p{
-	font-size: 230%;
+	font-size: 200%;
 	position: absolute;
 	top: 34%;
 	left: 32%;
 	line-height: 1.3em;
 }
-.i2{
+.back{
 	width: 28%;
 	position: absolute;
 	top: 65%;
