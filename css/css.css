@@ -31,7 +31,7 @@ body{
 	float: left;
 }
 .one p{
-	font-size: 180%;
+	font-size: 170%;
 	float: left;
     margin-top: 8%;
 }
@@ -39,19 +39,22 @@ body{
 	position: absolute;
 	top: 45%;
 	right: 15%;
+	width: 320px;
 }
 .two img{
 	float: right;
 }
 .two p{
-	font-size: 180%;
+	font-size: 170%;
 	float: right;
     margin-top: 8%;
 }
+
 .three{
 	position: absolute;
 	top: 54%;
 	left: 15%;
+	width: 308px;
 }
 .three img{
 	float: left;
@@ -65,6 +68,7 @@ body{
 	position: absolute;
 	top: 62%;
 	right: 15%;
+	width: 310px;
 }
 .four img{
 	float: right;
@@ -78,6 +82,7 @@ body{
 	position: absolute;
 	top: 70%;
 	left: 15%;
+	width: 308px;
 }
 .five img{
 	float: left;
@@ -91,6 +96,7 @@ body{
 	position: absolute;
 	top: 78%;
 	right: 16%;
+	width: 310px;
 }
 .six img{
 	float: right;
@@ -104,6 +110,7 @@ body{
 	position: absolute;
 	top: 86%;
 	left: 15%;
+	width: 307px;
 }
 .seven img{
 	float: left;
@@ -117,6 +124,7 @@ body{
 	position: absolute;
 	top: 94%;
 	right: 15%;
+	width: 310px;
 }
 .eight img{
 	float: right;
@@ -130,6 +138,7 @@ body{
 	position: absolute;
 	top: 102%;
 	left: 15%;
+	width: 320px;
 }
 .nine img{
 	float: left;
@@ -143,6 +152,7 @@ body{
 	position: absolute;
 	top: 110%;
 	right: 15%;
+	width: 310px;
 }
 .ten img{
 	float: right;
@@ -186,10 +196,13 @@ body{
 .l2{
     font-size: 380%;
 }
-.l3{
-	font-size: 260%;
+#l3{
 	position: absolute;
-	left: 80%;
+	left: 50%;
+	font-size: 300%;
+}
+.l4{
+	font-size:300%; 
 }
 .i1{
 	width: 75%;
