@@ -54,7 +54,7 @@ body{
 	position: absolute;
 	top: 54%;
 	left: 15%;
-	width: 308px;
+	width: 307px;
 }
 .three img{
 	float: left;
@@ -82,7 +82,7 @@ body{
 	position: absolute;
 	top: 70%;
 	left: 15%;
-	width: 308px;
+	width: 307px;
 }
 .five img{
 	float: left;
@@ -110,7 +110,7 @@ body{
 	position: absolute;
 	top: 86%;
 	left: 15%;
-	width: 307px;
+	width: 306px;
 }
 .seven img{
 	float: left;
@@ -198,11 +198,13 @@ body{
 }
 #l3{
 	position: absolute;
-	left: 50%;
+	left: 60%;
 	font-size: 300%;
 }
 .l4{
-	font-size:300%; 
+	font-size:300%;
+	position: absolute;
+	left: 87%; 
 }
 .i1{
 	width: 75%;

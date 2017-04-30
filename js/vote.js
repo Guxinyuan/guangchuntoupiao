@@ -17,11 +17,12 @@ $(document).ready(function(){
     $(".l2").html("曹牧之 叶梓靖");
     $(".l1").html("14表演");
     $("#gxy").attr("src","./images/h1-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047de161ff4b0066aa0746');
+    var player = AV.Object.createWithoutData('Player', '59047de161ff4b0066aa0746');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number1').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -34,6 +35,7 @@ $(document).ready(function(){
   }, function (error) {
     // 异常处理
   });
+  });
     
     
     
@@ -43,11 +45,12 @@ $(document).ready(function(){
     $(".l2").html( "宋舒蕾");
     $(".l1").html("15音导");
     $('#gxy').attr("src","./images/h2-1.png")
-  });var player = AV.Object.createWithoutData('Player', '59047e28a22b9d0065d9aae2');
+    var player = AV.Object.createWithoutData('Player', '59047e28a22b9d0065d9aae2');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number2').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -59,6 +62,7 @@ $(document).ready(function(){
     }; 
   }, function (error) {
     // 异常处理
+  });
   });
      
      
@@ -71,11 +75,12 @@ $(document).ready(function(){
     $(".l2").html("王汉臣");
     $(".l1").html("15法语");
     $("#gxy").attr("src","./images/h3-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047dbcb123db3ee4779d28');
+    var player = AV.Object.createWithoutData('Player', '59047dbcb123db3ee4779d28');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number3').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -87,6 +92,7 @@ $(document).ready(function(){
     }; 
   }, function (error) {
     // 异常处理
+  });
   });
  
  
@@ -96,11 +102,12 @@ $(document).ready(function(){
     $(".l2").html("叶青雯");
     $(".l1").html("16声表");
     $("#gxy").attr("src","./images/h4-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047db044d90400691fc7e2');
+    var player = AV.Object.createWithoutData('Player', '59047db044d90400691fc7e2');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number4').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -112,6 +119,7 @@ $(document).ready(function(){
     }; 
   }, function (error) {
     // 异常处理
+  });
   });
     
   $("#xs5").click(function(){
@@ -120,11 +128,12 @@ $(document).ready(function(){
     $(".l2").html("张沁园");
     $(".l1").html("16广电研");
     $("#gxy").attr("src","./images/h5-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047e015c497d0058356436');
+    var player = AV.Object.createWithoutData('Player', '59047e015c497d0058356436');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number5').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -136,6 +145,7 @@ $(document).ready(function(){
     }; 
   }, function (error) {
     // 异常处理
+  });
   });
     
   $("#xs6").click(function(){
@@ -144,11 +154,12 @@ $(document).ready(function(){
     $(".l2").html("程博强");
     $(".l1").html("15影视动画");
     $("#gxy").attr("src","./images/h6-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047d94a22b9d0065d9a73c');
+    var player = AV.Object.createWithoutData('Player', '59047d94a22b9d0065d9a73c');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number6').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -160,6 +171,7 @@ $(document).ready(function(){
     }; 
   }, function (error) {
     // 异常处理
+  });
   });
     
 $("#xs7").click(function(){
@@ -168,11 +180,12 @@ $("#xs7").click(function(){
     $(".l2").html("涂陈昊");
     $(".l1").html("16通信");
     $("#gxy").attr("src","./images/h7-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047e0e5c497d0058356489');
+    var player = AV.Object.createWithoutData('Player', '59047e0e5c497d0058356489');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number7').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -184,6 +197,7 @@ $("#xs7").click(function(){
     }; 
   }, function (error) {
     // 异常处理
+  });
   });
     
   $("#xs8").click(function(){
@@ -192,11 +206,12 @@ $("#xs7").click(function(){
     $(".l2").html("杨鹏宇");
     $(".l1").html("15声表");
     $("#gxy").attr("src","./images/h8-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047dc6570c35005817dbbd');
+    var player = AV.Object.createWithoutData('Player', '59047dc6570c35005817dbbd');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number8').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -208,6 +223,7 @@ $("#xs7").click(function(){
     }; 
   }, function (error) {
     // 异常处理
+  });
   });
     
   $("#xs9").click(function(){
@@ -216,11 +232,12 @@ $("#xs7").click(function(){
     $(".l2").html("郑馨怡");
     $(".l1").html("14广告");
     $("#gxy").attr("src","./images/h9-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047da3b123db3ee4779c95');
+    var player = AV.Object.createWithoutData('Player', '59047da3b123db3ee4779c95');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
+    $('.number9').text(number);
     $('.number').text(number);
     $('#vote').click(vote);
     function vote() {
@@ -233,6 +250,7 @@ $("#xs7").click(function(){
   }, function (error) {
     // 异常处理
   });
+  });
     
   $("#xs10").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -240,12 +258,13 @@ $("#xs7").click(function(){
     $(".l2").html("宗一介");
     $(".l1").html("14音传");
     $("#gxy").attr("src","./images/h10-1.png");
-  });var player = AV.Object.createWithoutData('Player', '59047e30ac502e0063e359e6');
+    var player = AV.Object.createWithoutData('Player', '59047e30ac502e0063e359e6');
     player.fetch().then(function () {
     var name = player.get('name');// 读取 name
     $('.name').text(name);
     var number = player.get('number');// 读取 number
     $('.number').text(number);
+    $('.number10').text(number);
     $('#vote').click(vote);
     function vote() {
       // body...
@@ -256,6 +275,7 @@ $("#xs7").click(function(){
     }; 
   }, function (error) {
     // 异常处理
+  });
   });
 
 
